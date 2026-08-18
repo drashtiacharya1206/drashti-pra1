@@ -1,14 +1,28 @@
 import React from "react";
-function App(){
-  return(
-    <div>
-      <h1>Welcome to React</h1>
-      <h2>My first react application</h2>
-      <p>
-        this is a simple react application created using JSX and functional components.
-      </p>
-      <p>react makes it easy to build user interfaces.</p>
+import "./app.css";
+
+function App() {
+  return (
+    <div className="app-container">
+      <div className="card">
+        <h1>Welcome to React 🚀</h1>
+
+        <h2>My First React Application</h2>
+
+        <p>
+          This is a simple React application created using
+          <strong> JSX </strong> and <strong> Functional Components</strong>.
+        </p>
+
+        <p>
+          React makes it easy to build beautiful and interactive
+          user interfaces.
+        </p>
+
+        <button>Explore React</button>
+      </div>
     </div>
   );
-};
+}
+
 export default App;
